@@ -1,0 +1,71 @@
+{
+	"version": 1,
+	"author": "Kot",
+	"editor": "wokwi",
+	"parts": [
+		{
+			"type": "wokwi-pi-pico",
+			"id": "pico",
+			"top": 51.32,
+			"left": 116.01,
+			"rotate": 270,
+			"attrs": {
+				"builder": "pico-sdk"
+			}
+		},
+		{
+			"type": "wokwi-mpu6050",
+			"id": "imu1",
+			"top": 219.61,
+			"left": 71.19,
+			"attrs": {}
+		}
+	],
+	"connections": [
+		[
+			"pico:GP0",
+			"$serialMonitor:RX",
+			"",
+			[]
+		],
+		[
+			"pico:GP1",
+			"$serialMonitor:TX",
+			"",
+			[]
+		],
+		[
+			"imu1:VCC",
+			"pico:3V3",
+			"red",
+			[
+				"v0"
+			]
+		],
+		[
+			"imu1:SCL",
+			"pico:GP5",
+			"green",
+			[
+				"v0"
+			]
+		],
+		[
+			"imu1:SDA",
+			"pico:GP4",
+			"green",
+			[
+				"v0"
+			]
+		],
+		[
+			"imu1:GND",
+			"pico:GND.2",
+			"black",
+			[
+				"v0"
+			]
+		]
+	],
+	"dependencies": {}
+}

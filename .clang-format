@@ -1,0 +1,6 @@
+---
+BasedOnStyle: WebKit
+UseTab: true
+TabWidth: 4
+IndentSize: 4
+ColumnLimit: 120

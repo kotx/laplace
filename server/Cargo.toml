@@ -1,0 +1,12 @@
+[package]
+name = "laplace-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pad-motion = "0.1.6"
+ctrlc = "3.2.5"
+lazy-regex = "2.5.0"
+anyhow = "1.0.70"
+serial2 = "0.1.7"
+dialoguer = "0.10.4"

@@ -1,0 +1,27 @@
+{
+	"cmake.statusbar.advanced": {
+		"debug": {
+			"visibility": "hidden"
+		},
+		"launch": {
+			"visibility": "hidden"
+		},
+		"build": {
+			"visibility": "hidden"
+		},
+		"buildTarget": {
+			"visibility": "hidden"
+		},
+	},
+	"files.exclude": {
+		"**/build": true
+	},
+	"files.associations": {
+		"stdlib.h": "c",
+		"stdio.h": "c",
+		"string.h": "c",
+		"mpu6050.h": "c",
+		"mocap.h": "c"
+	},
+	"cmake.configureOnOpen": true
+}

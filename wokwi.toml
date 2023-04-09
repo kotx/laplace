@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "./build/src/laplace.uf2"
+elf = "./build/src/laplace.elf"
